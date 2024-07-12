@@ -1,0 +1,15 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCaretDown = function SvgCaretDown(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 16,
+    height: 16
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#333",
+    d: "M3.8 5.4c-.165-.22-.075-.4.2-.4h8.002c.275 0 .365.18.199.4l-3.898 5.2c-.166.221-.436.221-.6 0z"
+  })));
+};
+export { SvgCaretDown as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iIzMzMzMzMyIgZD0iTTMuOCA1LjRjLS4xNjUtLjIyLS4wNzUtLjQuMi0uNGg4LjAwMmMuMjc1IDAgLjM2NS4xOC4xOTkuNGwtMy44OTggNS4yYy0uMTY2LjIyMS0uNDM2LjIyMS0uNiAwbC0zLjkwMy01LjJ6Ii8+PC9zdmc+Cg==";

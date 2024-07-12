@@ -1,0 +1,15 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgError = function SvgError(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 16,
+    height: 16,
+    fill: "#e32700"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M8.002 1a7 7 0 1 0 0 14 7 7 0 0 0 0-14m4.025 9.284c.062.063.1.149.1.239a.34.34 0 0 1-.1.24l-1.262 1.262a.34.34 0 0 1-.48 0L8.002 9.742l-2.286 2.283a.34.34 0 0 1-.48 0l-1.261-1.262a.336.336 0 0 1 0-.478L6.258 8 3.975 5.716a.34.34 0 0 1 0-.48l1.262-1.262a.34.34 0 0 1 .48 0l2.285 2.284 2.283-2.284a.34.34 0 0 1 .48 0l1.262 1.262c.062.063.1.149.1.24a.35.35 0 0 1-.1.24L9.744 8z"
+  })));
+};
+export { SvgError as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2UzMjcwMCI+PHBhdGggZD0iTTguMDAyIDFjLTMuODY4IDAtNy4wMDIgMy4xMzQtNy4wMDIgN3MzLjEzNCA3IDcuMDAyIDdjMy44NjUgMCA3LTMuMTM0IDctN3MtMy4xMzUtNy03LTd6bTQuMDI1IDkuMjg0Yy4wNjIuMDYzLjEuMTQ5LjEuMjM5IDAgLjA5MS0uMDM3LjE3Ny0uMS4yNGwtMS4yNjIgMS4yNjJjLS4wNjQuMDYyLS4xNS4xLS4yNC4xcy0uMTc2LS4wMzYtLjI0LS4xbC0yLjI4My0yLjI4My0yLjI4NiAyLjI4M2MtLjA2NC4wNjItLjE1LjEtLjI0LjFzLS4xNzYtLjAzNi0uMjQtLjFsLTEuMjYxLTEuMjYyYy0uMDYzLS4wNjItLjEtLjE0OC0uMS0uMjQgMC0uMDg4LjAzNi0uMTc2LjEtLjIzOGwyLjI4My0yLjI4NS0yLjI4My0yLjI4NGMtLjA2My0uMDY0LS4xLS4xNS0uMS0uMjRzLjAzNi0uMTc2LjEtLjI0bDEuMjYyLTEuMjYyYy4wNjMtLjA2My4xNDktLjEuMjQtLjEuMDg5IDAgLjE3Ni4wMzYuMjQuMWwyLjI4NSAyLjI4NCAyLjI4My0yLjI4NGMuMDY0LS4wNjMuMTUtLjEuMjQtLjFzLjE3Ni4wMzYuMjQuMWwxLjI2MiAxLjI2MmMuMDYyLjA2My4xLjE0OS4xLjI0IDAgLjA4OS0uMDM3LjE3Ni0uMS4yNGwtMi4yODMgMi4yODQgMi4yODMgMi4yODR6Ii8+PC9zdmc+Cg==";
